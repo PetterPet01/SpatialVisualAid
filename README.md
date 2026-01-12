@@ -2,7 +2,10 @@
 
 **Team:** NightfoodRetrieval
 
-**Competition:** Vietnam Electronic Design Competition (VEDC) 2025
+**Competition:** [Vietnam Electronic Design Competition (VEDC) 2025 
+](https://rev.org.vn/cuoc-thi-thiet-ke-dien-tu-viet-nam?fbclid=IwY2xjawPRjhxleHRuA2FlbQIxMABicmlkETFhR0MxVXJTbHdRaDhWc2REc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHniiNePy0reYM3XpIOXHh9ryWfEI6od08hvuwCG81EJI-s1EtI1_hQm1EBTi_aem_NtbhtTo8NOd_bAkOoSDA5Q)
+
+**Demo:** [Video demo](https://drive.google.com/file/d/1vxk5g3XglEe4WXr8Z8FKH-3Gej3axDa7/view?resourcekey)
 
 ## Overview
 
@@ -13,6 +16,12 @@ By leveraging a hybrid edge-cloud architecture, the device captures environmenta
 ## System Architecture
 
 The solution utilizes a distributed microservices architecture designed to balance low latency with high-performance computing.
+
+<p align="center">
+  <img src="Overview_Architecture.png" alt="System Architecture" width="800" />
+  <br />
+  <strong>Figure 1:</strong> System architecture of SpatialVisualAid
+</p>
 
 ### 1. The Edge (Client)
 The wearable device functions as a "Thin Client," responsible for sensory data acquisition and user interaction. To ensure responsiveness, the client operates via a multi-threaded architecture that handles:
